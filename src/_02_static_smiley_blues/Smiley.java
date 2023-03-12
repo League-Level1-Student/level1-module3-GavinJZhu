@@ -7,6 +7,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 
 public class Smiley extends JLabel {
+	private static final long serialVersionUID = 1L;
 	public static final String YELLOW = "yellow";
 	public static final String RED = "red";
 	public static final String GREEN = "green";
@@ -14,7 +15,7 @@ public class Smiley extends JLabel {
 	public static String color = BLUE;
 	
 	Smiley(){
-		super(loadIcon("_01_static_smiley_blues/smiley_"+ color +".jpg"));
+		super(loadIcon("_02_static_smiley_blues/smiley_"+ color +".jpg"));
 	}
 	
 	private static Icon loadIcon(String fileName) {
