@@ -41,4 +41,7 @@ public class CowTimer {
         Sound sound = new Sound(fileName);
         sound.play();
     }
+   cowTimer {
+        seconds = 30;
+    }
 }
