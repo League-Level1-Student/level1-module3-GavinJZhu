@@ -7,6 +7,7 @@ public class Frogger extends PApplet {
     static final int HEIGHT = 600;
     int x;
     int y;
+    int hopDistance;
     @Override
     public void settings() {
         size(WIDTH, HEIGHT);
